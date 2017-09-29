@@ -15,7 +15,7 @@ h1 {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  justify-content: center;
+  text-align: center;
 }
 
 p {
@@ -36,18 +36,20 @@ p {
   height: 100px;
   position: fixed;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .topnav {
-  width: 750px;
   display: flex;
   justify-content: flex-end;
-  padding-right: 50px;
+  padding-right: 30px;
+  align-items: center;
+
 }
 
 .topnavitem {
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding: 15px;
 }
 
 .logo {
@@ -61,12 +63,14 @@ p {
 
 .logotitle {
   padding-left: 15px;
+  width: 100px;
 }
 
 .image {
   display:flex;
   align-content: center;
   justify-content: center;
+  height:300px;
 }
 
 .homepage{
@@ -134,7 +138,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 100px;
 }
 
 .footer nav {
