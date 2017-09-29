@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+
+}
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #ffffff;
+  z-index: 5;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  display: flex;
+}
+
+.topnav {
+  width: 750px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.topnavitem {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  color: MediumAquamarine;
+  height: 50px;
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+
+}
+
+.logotitle {
+  padding-left: 15px;
+}
+
+.image {
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.homepage{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 40px auto;
+  padding-top: 116px;
+}
+
+.tunaimage {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  image: no-repeat;
+}
+
+.earthspinsimage {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+.cameraimage {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  position: relative;
+}
+
+.catimage {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+.article {
+}
+
+.whitetitle {
+  color: white;
+  font-size: 40px;
+}
+
+.advertising {
+  list-style-type: none;
+  margin: none;
+}
+
+.advertising li {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-top: solid black 1px;
+  border-top: solid black 1px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.newsbites {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.footer nav {
+  display: inline-block;
+}
+
+.footer nav span {
+  padding: 20px 10px;
+}
+.mytimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  display: inline-block;
+  margin-top: 0;
+}
+
+
+.column.large {
+  width: 630px;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+  flex-direction: column;
+  padding-left: 20px;
+
+}
+
+.copyright {
+  display: block;
+}
